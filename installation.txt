@@ -1,0 +1,11 @@
+// for install react
+npm create vite@latest client -- --template react
+
+cd client
+npm install
+npm run dev
+
+
+// install node dependecies
+npm init -y
+npm i bcrypt cookie-parser cors dotenv email-vaildator express jsonwebtoken mongoose nodemon
